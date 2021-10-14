@@ -1,0 +1,14 @@
+<style>
+.product_disclaimer_value {
+    clear: both;
+    margin: 20px;
+    font-size: 25px;
+    color: green;
+}
+</style>
+<?php
+if ($block->getProductDisclaimer()) :?>
+<div class="product_disclaimer_value">
+<?php  echo $block->getProductDisclaimer();?>
+</div>
+    <?php endif; ?>
